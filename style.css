@@ -1,0 +1,125 @@
+html,
+
+body {
+    position: relative;
+    height: 100%;
+    margin-bottom: 0;
+    align-items: flex;
+
+}
+body {
+    background-color: #323232;
+    font-family: Helvetica Nue, Helvetica;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 40px;
+    box-sizing: border-box;
+}
+.swiper {
+    width: 90%;
+    max-width: 1000px;
+    padding: 150px 0 50px 0;
+    box-sizing: border-box;
+}
+.swiper-slide {
+    width: 30%;
+    height: 50%;
+    background-color: #323232;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.icons i {
+    font-size: 2%;
+    color: #ffb900;
+    align-items: righ;
+}
+.icons img {
+    width: 35%;
+    height: auto;
+  
+
+}
+.product-content {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+}
+.product-txt {
+    flex-basis: 50%;
+    text-align: left;
+}
+.product-txt span {
+    font-size: 2.5vw;
+    display: flex;
+    color: #ffb900;
+    font-weight: bold;
+    text-align: flex
+}
+.product-txt h3 {
+    font-size: 2vw;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.product-txt p {
+    font-size: 1.4vw;
+    color: #C4C4C4;
+}
+.product-img {
+    flex-basis: 50%;
+    text-align: right;
+    text-align: center;
+    height: auto;
+}
+.product-img img {
+    width: 120%;
+    height: auto;
+
+
+}
+.btn-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 55px;
+    border: 1px solid #ffb900;
+    border-radius: 25px;
+    color: #ffb900;
+    text-decoration: none;
+    text-align: flex;
+}
+@media screen and (min-width: 400px){
+    .swiper {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 400px){
+    .swiper-wrapper{
+        width: 100%;
+    }
+}
+@media (min-width:320px)  { 
+    .swiper-wrapper {
+        width: 100%;
+        padding: auto;
+    }
+}
+@media (min-width:320px)  { 
+    .product-content {
+        width: auto;
+        padding: auto;
+    }
+}
+@media (min-width:320px)  { 
+    .swiper-wrapper {
+        width: 100%;
+        padding: auto;
+    }
+}
