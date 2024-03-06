@@ -38,7 +38,7 @@ body {
 }
 .icons i {
     font-size: 2%;
-    color: #ffb900;
+    color: #7300ff;
     align-items: righ;
 }
 .icons img {
@@ -60,13 +60,13 @@ body {
 .product-txt span {
     font-size: 2.5vw;
     display: flex;
-    color: #ffb900;
+    color: #7300ff;
     font-weight: bold;
     text-align: flex
 }
 .product-txt h3 {
     font-size: 5vw;
-    color: #ffb900;
+    color: #7300ff;
     text-align: center;
 
 }
@@ -92,9 +92,9 @@ body {
     justify-content: center;
     align-items: center;
     padding: 13px 55px;
-    border: 1px solid #ffb900;
+    border: 1px solid #7300ff;
     border-radius: 25px;
-    color: #ffb900;
+    color: #7300ff;
     text-decoration: none;
     text-align: flex;
 }
