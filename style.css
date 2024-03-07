@@ -11,7 +11,7 @@ body {
 }
 body {
     background-color: #889696;
-    font-family: Helvetica Nue, Helvetica;
+    font-family: Platino;
     font-size: 14px;
     color: #000;
     margin: 0;
@@ -49,7 +49,6 @@ body {
 .icons img {
     width: 30%;
     height: auto;
-  
 
 }
 .product-content {
