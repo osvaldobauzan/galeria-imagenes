@@ -5,29 +5,34 @@ body {
     height: 100%;
     margin-bottom: 0;
     align-items: flex;
+    align-items: center;
+    
 
 }
 body {
-    background-color: #323232;
+    background-color: #889696;
     font-family: Helvetica Nue, Helvetica;
     font-size: 14px;
     color: #000;
     margin: 0;
     padding: 20px;
     box-sizing: border-box;
+  
 }
+
 .swiper {
     width: 90%;
     max-width: 1000px;
-    padding: 150px 0 50px 0;
+    padding: 75% 0 75% 0;
     box-sizing: border-box;
+    align-items: center;
 }
 .swiper-slide {
-    width: 45%;
+    width: 50%;
     height: 50%;
-    background-color: #323232;
+    background-color: #B8BDB5;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-    padding: 40px;
+    padding: 10vw;
     text-align: center;
 }
 .icons {
@@ -38,7 +43,7 @@ body {
 }
 .icons i {
     font-size: 2%;
-    color: #7300ff;
+    color: #5F7470;
     align-items: righ;
 }
 .icons img {
@@ -60,19 +65,19 @@ body {
 .product-txt span {
     font-size: 2.5vw;
     display: flex;
-    color: #7300ff;
+    color: #5F7470;
     font-weight: bold;
     text-align: flex
 }
 .product-txt h3 {
     font-size: 5vw;
-    color: #7300ff;
-    text-align: center;
+    color: #5F7470;
+ 
 
 }
 .product-txt p {
     font-size: 1.4vw;
-    color: #C4C4C4;
+    color: #D2D4C8;
 }
 .product-img {
     flex-basis: 100%;
@@ -91,10 +96,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 13px 55px;
-    border: 1px solid #7300ff;
-    border-radius: 25px;
-    color: #7300ff;
+    padding: 20px 55px;
+    color: #5F7470;
     text-decoration: none;
     text-align: flex;
 }
