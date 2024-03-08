@@ -23,7 +23,7 @@ body {
 .swiper {
     width: 90%;
     max-width: 1000px;
-    padding: 75% 0 75% 0;
+    padding: 60% 0 60% 0;
     box-sizing: border-box;
     align-items: center;
 }
@@ -32,7 +32,7 @@ body {
     height: 50%;
     background-color: #B8BDB5;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-    padding: 10vw;
+    padding: 5vw;
     text-align: center;
 }
 .icons {
@@ -47,7 +47,7 @@ body {
     align-items: righ;
 }
 .icons img {
-    width: 30%;
+    width: 40%;
     height: auto;
 
 }
@@ -80,16 +80,20 @@ body {
 }
 .product-img {
     flex-basis: 100%;
-    height: auto;
-    padding: 3vw;
-    text-align: center;
+    padding: 1vw;
+    padding-left: 1vw;
+    display: flex; 
+    justify-content: center; 
 }
-.product-img img {
-    width: 110%;
-    height: auto;
-    text-align: center;
-    
 
+.product-img img {
+    max-width: 100%; 
+    max-height: 100%; 
+}
+
+.product-img img {
+    width: 150%;
+   
 }
 .btn-1 {
     display: flex;
