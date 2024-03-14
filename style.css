@@ -74,6 +74,12 @@ body {
  
 
 }
+.product-txt h2 {
+    font-size: 3vw;
+    color: #5F7470;
+ 
+
+}
 .product-txt p {
     font-size: 1.4vw;
     color: #D2D4C8;
@@ -99,7 +105,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 55px;
+    padding: 20px 30px;
     color: #5F7470;
     text-decoration: none;
     text-align: flex;
